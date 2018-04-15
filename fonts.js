@@ -18,14 +18,14 @@ lib.ssMetadata = [];
 		// https://fonts.google.com/?subset=hebrew
 		WebFontConfig = {
 			google: {
-				families: ['Amatic SC'] //כאן בחרו את הפונט
+				families: ['Rubik'] //כאן בחרו את הפונט
 			}
 		};
 		
 		//בפונקציה הזו אין לבצע שינויים, מייבאת את הפונט הרצוי
 		(function () {
 			var wf = document.createElement('script');
-			wf.src = 'http://fonts.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+			wf.src = '//fonts.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
 			wf.type = 'text/javascript';
 			wf.async = true;
 			var s = document.getElementsByTagName('script')[0];
@@ -36,7 +36,7 @@ lib.ssMetadata = [];
 		// קוד הפרוייקט -----------------------------------
 		var self=this;
 		self.dynamicText.color = "#2E2E2E";
-		self.dynamicText.font = "35px Amatic SC"; //ציינו גם כאן את שם הפונט הנבחר
+		self.dynamicText.font = "35px Rubik"; //ציינו גם כאן את שם הפונט הנבחר
 		self.dynamicText.textAlign = "center";
 		self.dynamicText.text = "טקסט בפונט חיצוני ממורכז";
 	}
